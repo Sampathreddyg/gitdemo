@@ -13,6 +13,8 @@ public class Demo1 {
 		opt.addArguments("start-maximized");
 		WebDriver driver = new ChromeDriver(opt);
 		driver.get("https://google.com");
+		String title = driver.getTitle();
+		System.out.println("Page title: "+title);
 		driver.close();
 		
 	}
