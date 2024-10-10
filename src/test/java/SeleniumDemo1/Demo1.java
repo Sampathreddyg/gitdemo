@@ -11,6 +11,7 @@ public class Demo1 {
 		
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("start-maximized");
+		opt.addArguments("delete-coockies");
 		WebDriver driver = new ChromeDriver(opt);
 		driver.get("https://google.com");
 		String title = driver.getTitle();
