@@ -18,6 +18,7 @@ public class Sample1 {
 		b = a - b;
 		a = a - b;
 		System.out.println("Numbers after swapping " + a + " and " + b);
+		
 	}
 
 }
