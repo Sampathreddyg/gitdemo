@@ -9,7 +9,8 @@ public class Sample2 {
 
 		WebDriver driver =  new ChromeDriver();
 		driver.get("https://google.com");
-		
+		String src = driver.getPageSource();
+		System.out.println("Page source : "+src);
 		driver.close();
 		
 	}
